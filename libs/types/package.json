@@ -1,0 +1,14 @@
+{
+  "name": "@hollowkit/types",
+  "version": "1.0.0",
+  "description": "Generated TypeScript types from protobuf definitions",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

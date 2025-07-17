@@ -1,0 +1,23 @@
+# Bun configuration file
+[build]
+target = "node"
+
+[install]
+# Use yarn for package management
+auto = "yarn"
+
+# Enable TypeScript transpilation
+[transpiler]
+# Use TypeScript compiler for .ts files
+typescript = true
+
+# Path mapping for workspace packages
+[paths]
+"@hollowkit/shared" = ["./libs/shared/src/index.ts"]
+"@hollowkit/shared/*" = ["./libs/shared/src/*"]
+"@hollowkit/logger" = ["./libs/logger/src/index.ts"]
+"@hollowkit/logger/*" = ["./libs/logger/src/*"]
+"@hollowkit/types" = ["./libs/types/src/index.ts"]
+"@hollowkit/types/*" = ["./libs/types/src/*"]
+"@hollowkit/constants" = ["./libs/constants/src/index.ts"]
+"@hollowkit/constants/*" = ["./libs/constants/src/*"]
