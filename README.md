@@ -3,7 +3,6 @@
 A modern NestJS microservices monorepo with gRPC communication, Prisma ORM, and TypeScript.
 
 ## 🏗️ Architecture
-
 ```
 hollowkit/
 ├── apps/                      # Microservice applications
